@@ -1,0 +1,5 @@
+= x 0;
+while(< x 10){
+	cond when (== x 4) do print(15) else print(x);
+	= x +(x 1)
+}
