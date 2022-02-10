@@ -17,7 +17,7 @@ La grammatica utilizzata per implementare il Translator è la seguente:
 <exprlistp> -> <expr> <exprlistp> | epsilon
         
 N.B. <> indica un metodo del Translator, | indica le possibili produzioni della grammatica mentre tutti gli altri elementi sono simboli terminali.
--------- GRAMMATICA --------
+----------------------------
         
 Il funzionamento del Translator si basa su due procedure:
         - Inizialmente viene eseguito il Lexer il quale analizzerà dal punto di vista lessicale il codice andando a generare una sequanza di token corrispondente
